@@ -1,7 +1,7 @@
 # Docker-react-node
 Your <b>React.js</b> environment in just one command using <a href="https://github.com/facebookincubator/create-react-app">create-react-app</a>, node, mongo and yarn into a docker container.
 
-## Docker && docker-compose installation instructions:
+## Docker and docker-compose installation instructions:
 
 Install <b>docker</b> and <b>docker-compose</b> in your host machine:
 
@@ -15,14 +15,14 @@ Extra recommended optional step for allowing linux non-root users to run docker 
 
 Just run:
 
-* `$ docker-compose up` you will see two containers: one for node-react (port 3000) and another for mongo (port 27019)
+* `$ docker-compose up` you will see two containers: one for react-node (port 3000) and another for mongo (port 27019)
 
 * To gracefully stop undetached run just press CTRL+C
 
 ## Test your React Installation:
 
-* Check your code at src/ 
-* Open http://localhost:3000
+* Check your code at `src/` 
+* Open `http://localhost:3000`
 
 ## Docker-compose basic handling:
 
