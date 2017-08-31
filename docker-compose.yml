@@ -6,7 +6,7 @@ services:
     container_name: docker-mongo
     ports:
      - 27019:27017
-  hello-docker-react:
+  docker-react-node_service:
     build:
       context: .
       dockerfile: Dockerfile
